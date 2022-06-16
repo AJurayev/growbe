@@ -651,8 +651,321 @@ body {
   border: none;
   background: #FFFFFF;
   box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+  background-image: url(/img/quote.svg);
+  background-repeat: no-repeat;
+  background-size: 42px 30px;
+  background-position: 267px 20px;
 }
 /* testimonials end */
 
 /* blog start */
+#blog {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+.blog-section-title h2 {
+  font-size: 45px;
+  line-height: 150%;
+  color: #000000;
+}
+.blog-section-title p {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+.blog-section {
+  position: relative;
+  margin-top: 55px;
+}
+.blog-left {
+  border-top: 2px solid #EEEEEE;
+  border-bottom: 2px solid #EEEEEE;
+  border-right: 2px solid #EEEEEE;
+  position: absolute;
+  width: 590px;
+  height: 330px;
+  left: -420px;
+}
+.blog-left-img {
+  position: relative;
+}
+.blog-left-img img {
+  position: relative;
+  width: 180px;
+  height: 330px;
+}
+.blog-left-discreption {
+  padding-top: 46px;
+  padding-bottom: 45px;
+  padding-left: 29px;
+  position: relative;
+}
+.blog-left-discreption h2 {
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.3);
+}
+.blog-left-discreption ul {
+  margin-top: 20px;
+}
+.blog-left-discreption li {
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(136, 136, 136, 0.5);
+}
+.left-one {
+  position: relative;
+  margin-right: 35px;
+  margin-left: 23px;
+}
+.left-one::after {
+  content: '';
+  color: rgba(242, 88, 34, 0.5);;
+  background-position: center;
+  background-image: url(/img/user.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.left-two {
+  position: relative;
+  margin-right: 35px;
+}
+.left-two::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/heart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.left-three {
+  position: relative;
+}
+.left-three::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/message.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.blog-left-discreption p {
+  font-size: 15px;
+  line-height: 150%;
+  color: rgba(102, 102, 102, 0.5);
+  margin-top: 22px;
+}
+.blog-left-discreption a {
+  margin-top: 26px;
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(242, 88, 34, 0.5);
+}
+
+.blog-center {
+  position: relative;
+  left: 230px;
+  width: 770px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+}
+.img-center-blog {
+  position: relative;
+}
+.img-center-blog img {
+  position: relative;
+  width: 370px;
+  height: 330px;
+}
+.blog-center-discreption {
+  padding-top: 46px;
+  padding-bottom: 45px;
+  padding-left: 29px;
+  position: relative;
+}
+.blog-center-discreption h2 {
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+.blog-center ul {
+  margin-top: 20px;
+}
+.blog-center-discreption li {
+  font-size: 11px;
+  line-height: 150%;
+  color: #888888;
+}
+.one {
+  position: relative;
+  margin-right: 35px;
+  margin-left: 23px;
+}
+.one::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/user.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.two {
+  position: relative;
+  margin-right: 35px;
+}
+.two::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/heart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.three {
+  position: relative;
+}
+.three::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/message.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.blog-center-discreption p {
+  margin-top: 22px;
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+}
+.blog-center-discreption a {
+  margin-top: 26px;
+  font-size: 11px;
+  line-height: 150%;
+  color: #F25822;
+}
+
+.blog-right {
+  border: 2px solid #EEEEEE;
+  position: absolute;
+  width: 770px;
+  height: 330px;
+  right: -630px;
+}
+.blog-right-img {
+  position: relative;
+}
+.blog-right-img img {
+  position: relative;
+  width: 370px;
+  height: 330px;
+}
+.blog-right-discreption {
+  padding-top: 46px;
+  padding-bottom: 45px;
+  padding-left: 29px;
+  position: absolute;
+  left: 360px;
+}
+.blog-right-discreption h2 {
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.3);
+}
+.blog-right-discreption ul {
+  margin-top: 20px;
+}
+.blog-right-discreption li {
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(136, 136, 136, 0.5);
+}
+.right-one {
+  position: relative;
+  margin-right: 35px;
+  margin-left: 23px;
+}
+.right-one::after {
+  content: '';
+  color: rgba(242, 88, 34, 0.5);;
+  background-position: center;
+  background-image: url(/img/user.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.right-two {
+  position: relative;
+  margin-right: 35px;
+}
+.right-two::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/heart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.right-three {
+  position: relative;
+}
+.right-three::after {
+  content: '';
+  background-position: center;
+  background-image: url(/img/message.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.blog-right-discreption p {
+  font-size: 15px;
+  line-height: 150%;
+  color: rgba(102, 102, 102, 0.5);
+  margin-top: 22px;
+}
+.blog-right-discreption a {
+  margin-top: 26px;
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(242, 88, 34, 0.5);
+}
 /* blog end */
