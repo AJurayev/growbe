@@ -415,11 +415,15 @@ body {
   background-color: #FFFFFF;
 }
 .plan-card h3 {
+  position: relative;
   font-size: 24px;
   line-height: 150%;
   color: #000000;
 }
 .dollar {
+  top: 57px;
+  left: 90px;
+  position: absolute;
   font-size: 18px;
   line-height: 150%;
   color: #000000;
@@ -450,12 +454,16 @@ body {
   margin-top: 27px;
 }
 .plan-center-card {
+  position: relative;
   width: 370px;
   height: 574px;
   background-color: #FFFFFF;
   box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
   margin-top: 56px;
   padding-top: 93px;
+}
+.plan-center-card .dollar {
+  top: 150px;
 }
 .color_special {
   font-size: 24px;
