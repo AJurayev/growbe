@@ -548,3 +548,111 @@ body {
   margin-top: 17px;
 }
 /* team end */
+
+/* testimonials start */
+#testimonials {
+  padding: 93px 0px 100px 0px;
+}
+.testimonials-section-title h2 {
+  font-size: 45px;
+  line-height: 53px;
+  color: #000000;
+}
+.testimonials-section-title p {
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666666;
+}
+.testimonials-section-cards {
+  margin-top: 55px;
+  position: relative;
+}
+.testimonials-card-left {
+  position: absolute;
+  width: 570px;
+  height: 271px;
+  left: -630px;
+  border: 2px solid rgba(238, 238, 238, 0.5);
+  padding-top: 25px;
+  padding-bottom: 27px;
+  background-image: url(/img/quote.svg);
+  background-repeat: no-repeat;
+  background-size: 42px 30px;
+  background-position: 267px 20px;
+}
+.testimonials-card-left p, .testimonials-card-right p {
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(136, 136, 136, 0.3);
+}
+.testimonials-card-left img, .testimonials-card-right img {
+  margin-top: 26px;
+}
+.testimonials-card-left h3, .testimonials-card-right h3 {
+  font-size: 13px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.3);
+}
+.testimonials-card-left span, .testimonials-card-right span {
+  font-size: 13px;
+  line-height: 150%;  
+  color: rgba(136, 136, 136, 0.3);
+}
+.testimonials-card-right {
+  position: absolute;
+  width: 570px;
+  height: 271px;
+  right: -630px;
+  border: 2px solid rgba(238, 238, 238, 0.5);
+  padding-top: 25px;
+  padding-bottom: 27px;
+  background-image: url(/img/quote.svg);
+  background-repeat: no-repeat;
+  background-size: 42px 30px;
+  background-position: 267px 20px;
+}
+.testimonials-card {
+  width: 570px;
+  height: 271px;
+  border: 2px solid #EEEEEE;
+  padding-top: 25px;
+  padding-bottom: 27px;
+  background-image: url(/img/quote.svg);
+  background-repeat: no-repeat;
+  background-size: 42px 30px;
+  background-position: 267px 20px;
+}
+.testimonials-card p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+}
+.testimonials-card img {
+  margin-top: 26px;
+}
+.testimonials-card h3 {
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+}
+.testimonials-card span {
+  font-size: 13px;
+  line-height: 150%;  
+  color: #888888;
+}
+.testimonials-dots img {
+  width: 66px;
+  height: 12px;
+  margin-top: 30px;
+  margin-left: 567px;
+}
+.rabith {
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+}
+/* testimonials end */
+
+/* blog start */
+/* blog end */
